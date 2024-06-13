@@ -14,7 +14,7 @@ const Instructors = () => {
     return (
         <>
             <Helmet>
-                <title>CampKnowledge || Instructors</title>
+                <title>Educare || Instructors</title>
             </Helmet>
             <div className='w-full flex justify-center my-10'>
                 <div className='max-w-screen-lg'>

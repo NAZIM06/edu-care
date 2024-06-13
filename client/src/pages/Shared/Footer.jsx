@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="footer p-3 bg-[#263B5E] text-white  flex flex-col  md:flex-row items-center justify-around">
         <div className="flex items-center">
         <Link to="/" className="text-white text-4xl font-bold">
-              <span className="text-[#FF1949]">Edu</span>time
+              <span className="text-[#FF1949]">Edu</span>care
             </Link>
         </div>
         <div className="">
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p>&copy; 2024 - All rights reserved by EduTime</p>
+          <p>&copy; 2024 - All rights reserved by Educare</p>
         </div>
       </footer>
       

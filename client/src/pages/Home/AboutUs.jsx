@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaChalkboardTeacher, FaHeadphones, FaRegFileAlt } from 'react-icons/fa';
+import { FaChalkboardTeacher, FaRegFileAlt } from 'react-icons/fa';
+import { MdOutlineMoreTime } from "react-icons/md";
+
 
 
 const AboutUs = () => {
@@ -28,7 +30,7 @@ const AboutUs = () => {
 Build skills your way, from labs to courses</p>
   </div>
   <div className="w-full md:w-80 h-auto rounded-lg shadow-md p-4 text-center bg-slate-50 mx-auto">
-  <FaHeadphones className="text-4xl text-red-500 mb-6 mx-auto" />
+  <MdOutlineMoreTime className="text-4xl text-red-500 mb-6 mx-auto" />
                             <h3 className="text-2xl font-semibold mb-4">Lifetime Access & Support</h3>
     <p className="text-gray-500">
 Keep up with in the latest in cloud</p>

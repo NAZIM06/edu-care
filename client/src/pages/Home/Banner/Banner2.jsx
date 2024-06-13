@@ -1,5 +1,11 @@
 import { Link } from 'react-router-dom';
-import { FaChalkboardTeacher, FaRegFileAlt, FaHeadphones, FaRocket, FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
+import { GrUserExpert } from "react-icons/gr";
+import { GoDeviceCameraVideo } from "react-icons/go";
+import { MdOutlineMoreTime } from "react-icons/md";
+import { IoSchool } from "react-icons/io5";
+
+
 const Banner2 = () => {
     return (
         <section className="bg-white  min-h-screen">
@@ -21,19 +27,19 @@ const Banner2 = () => {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div className="p-8 border border-gray-200 rounded-lg text-center">
-                            <FaChalkboardTeacher className="text-4xl text-red-500 mb-6 mx-auto" />
+                            <GrUserExpert className="text-4xl text-red-500 mb-6 mx-auto" />
                             <h3 className="text-2xl font-semibold mb-4">Expert Teacher</h3>
                         </div>
                         <div className="p-8 border border-gray-200 rounded-lg text-center">
-                            <FaRegFileAlt className="text-4xl text-red-500 mb-6 mx-auto" />
+                            <IoSchool className="text-4xl text-red-500 mb-6 mx-auto" />
                             <h3 className="text-2xl font-semibold mb-4">Quality Education</h3>
                         </div>
                         <div className="p-8 border border-gray-200 rounded-lg text-center">
-                            <FaHeadphones className="text-4xl text-red-500 mb-6 mx-auto" />
+                            <MdOutlineMoreTime className="text-4xl text-red-500 mb-6 mx-auto" />
                             <h3 className="text-2xl font-semibold mb-4">Life Time Support</h3>
                         </div>
                         <div className="p-8 border border-gray-200 rounded-lg text-center">
-                            <FaRocket className="text-4xl text-red-500 mb-6 mx-auto" />
+                            <GoDeviceCameraVideo className="text-4xl text-red-500 mb-6 mx-auto" />
                             <h3 className="text-2xl font-semibold mb-4">HD Video</h3>
                         </div>
                     </div>
