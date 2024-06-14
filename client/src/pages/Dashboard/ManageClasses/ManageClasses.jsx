@@ -72,8 +72,8 @@ const ManageClasses = () => {
                                 <th>Price</th>
                                 <th>Seats</th>
                                 <th>Feedback</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th className='text-center'>Status</th>
+                                <th className='text-center'>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -96,7 +96,7 @@ const ManageClasses = () => {
                                     {
                                         classes.status === 'Denied' && <td><div className='text-sm p-3 rounded-full flex justify-center items-center border-2 border-red-800 font-semibold'>{classes.status}</div></td>
                                     }
-                                    <td><div className='flex justify-between'><button disabled={classes.status === 'Approved' || classes.status == 'Denied'} onClick={() => handleUpdate(classes._id, 'approved')} className='button'>Approve</button><button disabled={classes.status === 'Approved' || classes.status == 'Denied'} onClick={() => handleUpdate(classes._id, 'denied')} className='btn btn-error'>Denied</button></div></td>
+                                    <td><div className='flex justify-between'><button disabled={classes.status === 'Approved' || classes.status == 'Denied'} onClick={() => handleUpdate(classes._id, 'approved')} className='button'>Approve</button><button disabled={classes.status === 'Approved' || classes.status == 'Denied'} onClick={() => handleUpdate(classes._id, 'denied')} className='button ml-2'>Denied</button></div></td>
                                 </tr>)}
 
                         </tbody>
