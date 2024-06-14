@@ -1,5 +1,5 @@
 # edu-care
-# # [Live Link: https://educare-nz.web.app](https://server-delta-navy.vercel.app)
+# # [Live Link: https://educare-nz.web.app](https://educare-nz.web.app)
 
 ## User acces for testing:
 * user email for admin role: "admin@gmail.com"
