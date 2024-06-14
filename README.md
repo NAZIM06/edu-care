@@ -1,7 +1,7 @@
 # edu-care
 # # [Live Link: https://educare-nz.web.app](https://educare-nz.web.app)
 
-## User acces for testing:
+## User access for testing:
 * user email for admin role: "admin@gmail.com"
 * password for admin role: "@Acccc"
 * user email for instructor role: "test@gmail.com"
